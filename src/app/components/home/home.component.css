@@ -1,0 +1,7 @@
+.heading i {
+    background-color: var(--sec-color);
+}
+
+.heading::before {
+    background-color: var(--text-color);
+}

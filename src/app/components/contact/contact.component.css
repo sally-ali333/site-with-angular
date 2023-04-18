@@ -1,0 +1,13 @@
+#contact {
+    color: var(--main-color);
+    padding: 9rem 0 7rem;
+}
+
+.heading::before {
+    background-color: var(--main-color)
+}
+
+.heading i {
+    background-color: var(--text-color);
+    color: var(--main-color);
+}

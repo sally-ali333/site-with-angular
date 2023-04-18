@@ -1,0 +1,25 @@
+nav {
+     background-color: var(--main-color);
+     font-weight: 700;
+}
+
+.navbar-toggler {
+     background-color: var(--sec-color);
+     color: var(--text-color);
+}
+
+.nav-link {
+     width: fit-content;
+     color: var(--text-color);
+     padding: 5px;
+     margin-left: 5px;
+     border-radius: 5px;
+}
+
+.nav-link:not(.activelink):hover {
+     color: var(--sec-color);
+}
+
+.activelink {
+     background-color: var(--sec-color);
+}
